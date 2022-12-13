@@ -1,9 +1,0 @@
-@import "~slick-carousel/slick/slick.css";
-@import "~slick-carousel/slick/slick-theme.css";
-
-.SliderContainer{
-    @apply w-[90%] mx-auto mt-10
-}
-.slider{
-    /*@apply flex flex-row justify-center items-center w-full mx-auto*/
-}

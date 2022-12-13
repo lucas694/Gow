@@ -6,7 +6,7 @@ import {useState} from "react";
 
 
 const Header = () =>{
-  const[isOpen, setIsOpen] = useState(true);
+  const[isOpen, setIsOpen] = useState(false);
   const toggle = () =>{
     setIsOpen(!isOpen);
   }

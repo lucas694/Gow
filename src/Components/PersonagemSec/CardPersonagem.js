@@ -1,8 +1,4 @@
 import "./CardPersonagem.css"
-import Kratos from "../Assets/kratos.png"
-import Atreus from "../Assets/atreus.png"
-import Angrboda from "../Assets/angrboda.png"
-import Freya from "../Assets/freya.png"
 
 const CardPersonagem = (props) =>{
   return(

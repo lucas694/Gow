@@ -14,8 +14,9 @@ const Main = () => {
           </div>
           <div className={"MainButtonsSection"}>
             <ButtonBase BtnText={"Compre Agora"}
-            className={"BtnBlue"}/>
-            <ButtonBase BtnText={"Saiba Mais"} className={"BtnTransparent"}/>
+                        className={"BtnBlue"}/>
+            <ButtonBase BtnText={"Saiba Mais"}
+                        className={"BtnTransparent"}/>
           </div>
         </div>
 

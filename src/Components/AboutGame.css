@@ -1,0 +1,27 @@
+.AboutGameContainer{
+    background-image: url("../Assets/BgAbout.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    @apply w-[90%] mx-auto mt-20  flex flex-col-reverse justify-between items-center py-4 px-4 rounded-2xl
+    lg:flex-row lg:justify-between
+}
+.AboutLeft{
+    @apply flex flex-col space-y-4
+}
+.AboutImg{
+    @apply w-[23em] shadow-2xl rounded-2xl
+}
+.AboutRight{
+    @apply flex flex-col
+    lg:w-[50%]
+    xl:w-[30%]
+}
+.AboutTittle{
+    @apply text-4xl text-white font-bold text-center
+    lg:text-start lg:text-5xl
+}
+.AboutDescript{
+    @apply text-white text-center text-xs font-bold mt-4 mb-4
+    lg:text-start lg:text-sm lg:mb-0
+}

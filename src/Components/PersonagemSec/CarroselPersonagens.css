@@ -1,0 +1,7 @@
+@import "../../../node_modules/slick-carousel/slick/slick.css";
+@import "../../../node_modules/slick-carousel/slick/slick-theme.css";
+
+.SliderContainer{
+    @apply w-[85%] mx-auto mt-10
+    md:w-[90%]
+}

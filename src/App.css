@@ -4,5 +4,5 @@
 
 }
 .App{
-  @apply bg-[#1E1E1E];
+  @apply bg-[#1E1E1E] pb-20;
 }

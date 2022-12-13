@@ -1,5 +1,5 @@
 .BtnBlue{
-    @apply bg-[#5092D2] text-white font-bold text-sm py-3 px-6 rounded-[5px] cursor-pointer
+    @apply bg-[#5092D2] text-white font-bold text-sm py-3 px-6 rounded-[5px] cursor-pointer hover:-translate-y-1 hover:scale-110 duration-300
 }
 .BtnBlue:hover{
     @apply text-black
@@ -7,6 +7,7 @@
 
 .BtnTransparent{
     @apply  text-white font-bold text-sm py-3 px-6 rounded-[5px] cursor-pointer border-[1px] border-gray-400
+    hover:-translate-y-1 hover:scale-110 duration-300
 }
 .BtnTransparent:hover{
     @apply text-black

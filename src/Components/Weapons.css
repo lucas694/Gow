@@ -1,0 +1,41 @@
+.WeaponsContainer{
+    @apply w-[90%] flex flex-col  mx-auto mt-20
+}
+.WeaponsSecTittle{
+    @apply text-5xl text-white font-bold text-center
+}
+.WeaponsContent{
+    @apply w-[90%] flex flex-col items-center mt-6 justify-around mx-auto space-y-2
+    xl:w-[90%] xl:flex-row xl:items-center xl:justify-around xl:space-y-0 xl:space-x-4
+}
+.WeaponsLeft{
+    @apply w-full flex flex-row items-center bg-[#27272E] rounded-[5px]
+    xl:w-[50%]
+}
+.WeaponsRight{
+    @apply w-full flex flex-row items-center bg-[#27272E] rounded-[5px]
+    xl:w-[50%]
+}
+.WeaponTextSec{
+    @apply w-[55%] flex flex-col items-start justify-center px-3
+    xl:px-10
+}
+.WeaponTittle{
+    @apply text-lg text-white font-bold text-start
+    md:text-2xl
+    xl:text-3xl
+}
+.WeaponDescript{
+    @apply text-white text-start mt-4 text-xs mb-4
+    md:text-sm
+}
+.WeaponImgSec{
+    @apply w-auto flex flex-col items-center justify-center
+    md:w-[50%]
+    xl:w-[45%]
+}
+.WeaponImg{
+    @apply h-[15em]
+    md:h-[20em]
+    xl:h-[24em]
+}
