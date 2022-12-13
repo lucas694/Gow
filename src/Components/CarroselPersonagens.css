@@ -1,0 +1,9 @@
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
+
+.SliderContainer{
+    @apply w-[90%] flex flex-row justify-center items-center mt-20 pb-20
+}
+.slider{
+    @apply flex flex-row justify-center items-center w-full
+}

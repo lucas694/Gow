@@ -1,0 +1,6 @@
+.PersonagensContainer{
+    @apply w-full flex-col justify-center items-center mt-20 pb-20
+}
+.PersonTittle{
+    @apply text-5xl text-white font-bold;
+}

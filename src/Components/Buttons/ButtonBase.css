@@ -1,0 +1,13 @@
+.BtnBlue{
+    @apply bg-[#5092D2] text-white font-bold text-sm py-3 px-6 rounded-[5px] cursor-pointer
+}
+.BtnBlue:hover{
+    @apply text-black
+}
+
+.BtnTransparent{
+    @apply  text-white font-bold text-sm py-3 px-6 rounded-[5px] cursor-pointer border-[1px] border-gray-400
+}
+.BtnTransparent:hover{
+    @apply text-black
+}

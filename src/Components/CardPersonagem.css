@@ -1,0 +1,9 @@
+.CardPersonagemContainer{
+    @apply w-[20em] h-[25em] flex flex-col justify-center items-center
+}
+.CardImg{
+    @apply w-[20em] h-[25em]
+}
+.CardPersTittle{
+    @apply text-3xl text-white font-bold absolute bottom-0 left-0 ml-[3.2em] mb-[1.5em]
+}

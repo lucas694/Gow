@@ -1,0 +1,41 @@
+.MainContainer{
+    background-image: url("../Assets/fundo.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    @apply w-full flex justify-center shadow-2xl ;
+}
+.MainContent{
+    @apply flex w-[90%] flex-col mt-36
+    lg:w-[90%] lg:flex-row lg:mt-52
+}
+.MainLeft{
+    @apply flex flex-col w-full
+    lg:w-[45%];
+}
+.MainRight{
+    @apply flex flex-col justify-end w-full mt-10
+    lg:w-[55%] lg:mt-0;
+}
+.MainTextSection{
+    @apply flex flex-col  ;
+}
+.MainTittle{
+    @apply text-5xl text-white font-bold text-center
+    lg:text-start lg:text-4xl
+    xl:text-5xl;
+}
+.MainDesc{
+    @apply text-white text-sm mt-4 text-center
+    lg:text-start lg:text-xs
+    xl:text-sm;
+}
+.MainButtonsSection{
+    @apply w-full flex flex-col justify-start mt-4 space-y-2
+    lg:space-x-4 lg:flex-row lg:space-y-0
+}
+
+.MainImg{
+    @apply w-[100%] object-cover;
+    lg:w-[60em]
+}

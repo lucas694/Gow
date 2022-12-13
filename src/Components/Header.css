@@ -1,0 +1,56 @@
+.HeaderContainer{
+    @apply w-full fixed
+}
+.HeaderContent{
+    @apply flex flex-row justify-between items-center py-5 px-6 w-full
+    lg:px-10 lg:py-5
+    xl:px-14
+}
+.UlHeader{
+    @apply hidden
+    lg:flex lg:flex-row lg:justify-between lg:items-center;
+}
+.LiHeader{
+    @apply py-3 px-6 rounded-[5px] font-bold text-sm text-white
+    lg:px-2 lg:text-xs
+    xl:px-4 xl:text-sm xl:mr-0
+}
+
+.LiHeader:hover{
+    @apply bg-[#5092D2] text-black cursor-pointer ;
+}
+.HeaderLogo{
+    @apply w-auto
+    lg:w-[11em]
+    xl:w-auto
+}
+.VectorLogo{
+    @apply hidden
+    md:w-[20em] md:flex
+    lg:hidden
+    xl:w-[25em] xl:flex
+}
+
+/* Menu Mobile*/
+.ButtonMobile{
+    @apply text-white text-4xl
+    lg:hidden
+}
+.MenuIconOpen{
+    @apply absolute top-32 left-0 w-full
+    lg:hidden;
+}
+.MenuIconClose{
+    @apply hidden
+}
+ .UlHeaderMobile{
+    @apply flex flex-col items-center text-white backdrop-blur	;
+
+}
+ .LiHeaderMobile{
+    @apply py-3 w-full rounded-[5px] font-bold text-base text-white ;
+ }
+    .LiHeaderMobile:hover{
+        @apply bg-[#5092D2] text-black cursor-pointer ;
+    }
+/* End Menu Mobile*/
