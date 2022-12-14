@@ -1,5 +1,5 @@
 .HeaderContainer{
-    @apply w-full fixed
+    @apply w-full fixed z-10
 }
 .HeaderContent{
     @apply flex flex-row justify-between items-center py-5 px-6 w-full
@@ -37,11 +37,11 @@
     lg:hidden
 }
 .MenuIconOpen{
-    @apply absolute top-20 left-0 w-full z-10
+    @apply absolute top-20 left-0 w-full
     lg:hidden;
 }
 .MenuIconClose{
-    @apply hidden
+    @apply hidden z-10
 }
  .UlHeaderMobile{
     @apply flex flex-col items-center text-white backdrop-blur	;
